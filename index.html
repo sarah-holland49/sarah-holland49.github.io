@@ -40,6 +40,7 @@
         <li> I love anime. Most of my free time is spent watching it.</li>
         <li> My favorite hobby is doing my nails. I started doing them myself about 3 years ago, and since then I've gottenn into all sorts of different techniques and producs!</li>
         <li> Before being an IT major, I was a biology major. I wanted to become a veterinarian, but eventually I decided I didn't want to take that many science classes.</li>
+        <br>
       </section>
       <section id="contact">
         <h2>Contact</h2>
