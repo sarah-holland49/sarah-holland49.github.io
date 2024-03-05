@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
   </head>
 <body>
   <div class="container">
@@ -42,14 +37,11 @@
         <h2>Contact</h2>
         <form action="#">
           <label for="name">Name: Sarah Holland</label>
-          <input type="text" id="name" name="name">
           <br>
-          <label for="email">Email: sholla49@students.kennesaw.edu</label>
-          <input type="email" id="email" name="email">  
+          <label for="email">Email: sholla49@students.kennesaw.edu</label> 
           <br>
           <label for="phone number">
             Phone number: 706-669-1038</label>
-          <button type="submit">Send</button>
         </form>
         <div class="contact-box">
           <p>Please feel free to contact me if needed!</p>
