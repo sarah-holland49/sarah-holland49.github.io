@@ -34,7 +34,7 @@
       <section id="about-me">
         <h2>About me</h2>
         <!–– 3rd header plus paragraph ––>
-        <p style="font-family: Georgia>Hi! My name is Sarah Holland. I am current a sophmore at Kennesaw State University. I am hoping to get a bachelor's degree in Information Technology and a master's degree in Healthcare Management and Informatics. While being a full-time student, I am also a part-time technology intern for the Pickens County Schools public education system.</p>
+        <p style="font-family: Georgia">Hi! My name is Sarah Holland. I am current a sophmore at Kennesaw State University. I am hoping to get a bachelor's degree in Information Technology and a master's degree in Healthcare Management and Informatics. While being a full-time student, I am also a part-time technology intern for the Pickens County Schools public education system.</p>
         <img src="my-photo.jpg" alt="My photo">
           <!–– Tried to insert image, I don't think it worked ––>
         <br>
