@@ -4,12 +4,14 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-  </head>
+    <!–– link to css ––>
+  </head> <!-- end of head -->
 <body>
   <div class="container">
     <header class="main-header">
       <nav>
-        <ul>
+        <ul> 
+          <!–– list for each section ––>
           <li><a href="#">Home</a></li>
           <li><a href="#">About me</a></li>
           <li><a href="#">Contact</a></li>
@@ -19,19 +21,25 @@
     <main>
       <section id="home">
         <h1>Sarah Holland</h1>
+        <!–– lst header ––>
       </section>
       <section id="Home">
         <h2>Home</h2>
+        <!–– 2nd header plus paragraph ––>
         <p style="font-family: Georgia">Welcome to my first website! I am currently taking my first class on web development, so my skills aren't the best yet. I mostly understand how to use html code because I've already taken several classes for other programming lanuages like Python and Java, but I'm kind of struggling with the CSS. Not to mention, I'm no artist and my organization skills are a bit lacking.</p>
         <p>But anyways! Thanks for viewing my first website!</p>
         <br>
       </section>
+      <!–– next section ––>
       <section id="about-me">
         <h2>About me</h2>
+        <!–– 3rd header plus paragraph ––>
         <p style="font-family: Georgia>Hi! My name is Sarah Holland. I am current a sophmore at Kennesaw State University. I am hoping to get a bachelor's degree in Information Technology and a master's degree in Healthcare Management and Informatics. While being a full-time student, I am also a part-time technology intern for the Pickens County Schools public education system.</p>
         <img src="my-photo.jpg" alt="My photo">
+          <!–– Tried to insert image, I don't think it worked ––>
         <br>
       <b> Fun Facts <b/>
+        <!–– Fun facts section with list ––>
         <li> I absolutely adore animals! I currently own one dog, although I would definitely adopt more pets if I could!</li>
         <li> I love anime. Most of my free time is spent watching it.</li>
         <li> My favorite hobby is doing my nails. I started doing them myself about 3 years ago, and since then I've gottenn into all sorts of different techniques and producs!</li>
@@ -40,6 +48,7 @@
       </section>
       <section id="contact">
         <h2>Contact</h2>
+        <!–– Next header/ section plus contact information ––>
         <form action="#">
           <label for="name">Name: Sarah Holland</label>
           <br>
