@@ -7,7 +7,7 @@
   </head>
 <body>
   <div class="container">
-    <header>
+    <header class="main-header">
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
