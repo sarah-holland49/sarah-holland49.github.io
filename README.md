@@ -22,12 +22,12 @@
       </section>
       <section id="Home">
         <h2>Home</h2>
-        <p>Welcome to my first website! I am currently taking my first class on web development, so my skills aren't the best yet. I mostly understand how to use html code because I've already taken several classes for other programming lanuages like Python and Java, but I'm kind of struggling with the CSS. Not to mention, I'm no artist and my organization skills are a bit lacking.</p>
+        <p style="font-family: Georgia">Welcome to my first website! I am currently taking my first class on web development, so my skills aren't the best yet. I mostly understand how to use html code because I've already taken several classes for other programming lanuages like Python and Java, but I'm kind of struggling with the CSS. Not to mention, I'm no artist and my organization skills are a bit lacking.</p>
         <p>But anyways! Thanks for viewing my first website!</p>
       </section>
       <section id="about-me">
         <h2>About me</h2>
-        <p>Hi! My name is Sarah Holland. I am current a sophmore at Kennesaw State University. I am hoping to get a bachelor's degree in Information Technology and a master's degree in Healthcare Management and Informatics. While being a full-time student, I am also a part-time technology intern for the Pickens County Schools public education system.</p>
+        <p style="font-family: Georgia>Hi! My name is Sarah Holland. I am current a sophmore at Kennesaw State University. I am hoping to get a bachelor's degree in Information Technology and a master's degree in Healthcare Management and Informatics. While being a full-time student, I am also a part-time technology intern for the Pickens County Schools public education system.</p>
         <img src="my-photo.jpg" alt="My photo">
         <br>
         <br>
@@ -36,6 +36,7 @@
         <li> I love anime. Most of my free time is spent watching it.</li>
         <li> My favorite hobby is doing my nails. I started doing them myself about 3 years ago, and since then I've gottenn into all sorts of different techniques and producs!</li>
         <li> Before being an IT major, I was a biology major. I wanted to become a veterinarian, but eventually I decided I didn't want to take that many science classes.</li>
+        <img src="my-photo.jpg.jpeg" alt="My photo">
       </section>
       <section id="contact">
         <h2>Contact</h2>
