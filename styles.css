@@ -1,3 +1,7 @@
 body{
-  background-color: #800080;
+  background-color: #FFFFE0;
+}
+
+.main-header {
+  background-image: url("my-photo.jpg.jpeg")
 }
