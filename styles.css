@@ -1,4 +1,10 @@
 *{
+  background-color: #FFFFE0;
+.main-header {
+  background-image: url("my-photo.jpg.jpeg")
+img{
+width: 500px; 
+  
   box-sizing: border-box;
   margin: 0;
   padding: 0;
