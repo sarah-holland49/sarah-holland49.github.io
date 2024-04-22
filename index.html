@@ -1,76 +1,155 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="home">
-        <h1>Sarah Holland<h1>
-        <h2>Welcome to my Portfolio!</h2>
-      </section>
-      <section id="portfolio">
-        <h2>Home</h2>
-        <p style="font-family: Georgia">Welcome to my first website! I am currently taking my first class on web development, so my skills aren't the best yet. I mostly understand how to use html code because I've already taken several classes for other programming lanuages like Python and Java, but I'm kind of struggling with the CSS. Not to mention, I'm no artist and my organization skills are a bit lacking.</p>
-        <p>But anyways! Thanks for viewing my first website!</p>
-        <br>
-        <ul>
-          <li><a href="#">Digital art</a></li>
-          <li><a href="#">Photography</a></li>
-        </ul>
-      </section>
-      <section id="about-me">
-        <h2>About me</h2>
-              <p style="font-family: Georgia">Hi! My name is Sarah Holland. I am current a sophmore at Kennesaw State University. I am hoping to get a bachelor's degree in Information Technology and a master's degree in Healthcare Management and Informatics. While being a full-time student, I am also a part-time technology intern for the Pickens County Schools public education system.</p>
-        <img src="my-photo.jpg" alt="My photo">
-          <!–– Tried to insert image, I don't think it worked ––>
-        <br>
-      <b> Fun Facts <b/>
-        <!–– Fun facts section with list ––>
-        <li> I absolutely adore animals! I currently own one dog, although I would definitely adopt more pets if I could!</li>
-        <li> I love anime. Most of my free time is spent watching it.</li>
-        <li> My favorite hobby is doing my nails. I started doing them myself about 3 years ago, and since then I've gottenn into all sorts of different techniques and producs!</li>
-        <li> Before being an IT major, I was a biology major. I wanted to become a veterinarian, but eventually I decided I didn't want to take that many science classes.</li>
-        <br>
-        <img src="my-photo.jpg" alt="My photo">
-      </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <form action="#">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email">
-          <label for="message">Message:</label>
-          <textarea id="message" name="message"></textarea>
-          <button type="submit">Send</button>
-        </form>
-        <div class="contact-box">
-          <p>Please feel free to contact me or leave a message!</p>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <ul class="social-media">
-        <li><a href="#"><img src="fb-logo.png" alt="Facebook"></a></li>
-        <li><a href="#"><img src="insta-logo.png" alt="Instagram"></a></li>
-        <li><a href="#"><img src="email-logo.png" alt="Email"></a></li>
-      </ul>
-    </footer>
-  </div>
-</body>
-</html>
+<!DOCTYPE html> 
+<html> 
+   
+<head> 
+    <title> 
+        Portfolio Website using HTML and CSS 
+    </title> 
+      
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1"> 
+          
+    <style> 
+        * { 
+            box-sizing: border-box; 
+        } 
+           
+        body { 
+            padding: 15px; 
+        } 
+           
+        .container { 
+            max-width: 1200px; 
+            margin: auto; 
+        } 
+           
+        h1 { 
+            color: green; 
+        } 
+           
+        a { 
+            text-decoration: none; 
+            color: #5673C8; 
+        } 
+           
+        a:hover { 
+            color: lightblue; 
+        } 
+           
+        p { 
+            display: -webkit-box; 
+            -webkit-box-orient: vertical; 
+            -webkit-line-clamp: 4; 
+            overflow: hidden; 
+       
+        } 
+           
+        .row { 
+            margin: 0px -18px; 
+            padding: 8px; 
+        } 
+           
+        .row > .column { 
+            padding: 6px; 
+        } 
+           
+        .column { 
+            float: left; 
+            width: 25%; 
+        } 
+           
+        .row:after { 
+            content: ""; 
+            display: table; 
+            clear: both; 
+        } 
+           
+        .content { 
+            background-color: white; 
+            padding: 10px; 
+            border: 1px solid gray; 
+        } 
+           
+        @media screen and (max-width: 850px) { 
+            .column { 
+                width: 50%; 
+            } 
+        } 
+       
+        @media screen and (max-width: 400px) { 
+            .column { 
+                width: 100%; 
+            } 
+        } 
+    </style> 
+</head> 
+  
+<body> 
+       
+    <div class="container"> 
+        <h1>HTML/CSS Portfolio Website</h1> 
+        <h3>You can change these texts</h3> 
+        <hr> 
+   
+        <!-- Content of the body-->
+        <h2>Some Images</h2> 
+        <div class="row"> 
+            <div class="column"> 
+                <div class="content"> 
+                    <img src= "sample image put here"
+                        alt="" style="width:100%"> 
+                    <h3> 
+                        <a href="#">Sample 1</a> 
+                    </h3> 
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                    </p> 
+                </div> 
+            </div> 
+              
+            <div class="column"> 
+                <div class="content"> 
+                    <img src= "sample image put here"
+                        alt="" style="width:100%"> 
+                    <h3> 
+                        <a href="#">Sample 2</a> 
+                    </h3> 
+                      
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </p> 
+                </div> 
+            </div> 
+              
+            <div class="column"> 
+                <div class="content"> 
+                    <img src= "sample image put here"
+                        alt="" style="width:100%"> 
+                    <h3> 
+                        <a href="#">Sample 3</a> 
+                    </h3> 
+                      
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. 
+                    </p> 
+                </div> 
+            </div> 
+              
+            <div class="column"> 
+                <div class="content"> 
+                    <img src= "sample image put here"
+                        alt="" style="width:100%"> 
+                    <h3> 
+                        <a href="#">Sample 4</a> 
+                    </h3> 
+                      
+                    <p> 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. 
+                    </p> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</body> 
+   
+</html>   
